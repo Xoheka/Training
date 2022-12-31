@@ -21,7 +21,7 @@ class Calendar:
     def next_available_slot(self, date: datetime):
         meeting_date = date
         while not self.is_available(meeting_date):
-            meeting_date =
+            #
         # stworznie zmiennej potencjalnej godzieny spotakania
         # while - dopoki potencjalana godzina nie jest wolna
         # dodawaj po jendaj godzienie do potencjalnej godzieny spotkania (timedelta)
